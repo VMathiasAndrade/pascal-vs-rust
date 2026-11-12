@@ -9,9 +9,9 @@
 ## Objetivo e motivação
 Comparar como Pascal e Rust organizam programas e tratam legibilidade, segurança e confiabilidade. Pascal enfatiza programação estruturada e clareza; Rust traz verificação de memória por ownership e borrowing. Investigar as decisões de projeto, suas vantagens, desvantagens e trade-offs.
 
-## Contexto histórico
-- Pascal: [indicar contexto e versão histórica escolhida; citar fontes]
-- Rust: [indicar contexto e versão usada; citar fontes]
+Pascal: será analisado o Pascal clássico, tomando como referência a norma ISO 7185. Para a execução dos experimentos, será utilizado o compilador Free Pascal 3.2.2, preferencialmente no modo de compatibilidade ISO.
+
+Rust: será utilizada a linguagem Rust, edição 2024, com o compilador rustc 1.99.1 (canal estável).
 
 
 ## Ambiente e reprodutibilidade
