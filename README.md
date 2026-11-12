@@ -3,9 +3,8 @@
 **Universidade:** Universidade Federal de Viçosa — Campus Florestal  
 **Disciplina:** Linguagens de Programação  
 **Professor:** Lucas Bragança da Silva  
-**Integrantes:** [inserir os cinco nomes]
+**Integrantes:** Artur Gil, Leonardo Henrique, Rafaella Pinheiro, Tariky Campos e Vitor Mathias
 
-> **Estado inicial:** estrutura e roteiros preparados; análises, experimentos e resultados estão **pendentes de pesquisa e testes**. Não confundir os modelos com resultados já validados.
 
 ## Objetivo e motivação
 Comparar como Pascal e Rust organizam programas e tratam legibilidade, segurança e confiabilidade. Pascal enfatiza programação estruturada e clareza; Rust traz verificação de memória por ownership e borrowing. Investigar as decisões de projeto, suas vantagens, desvantagens e trade-offs.
@@ -14,7 +13,6 @@ Comparar como Pascal e Rust organizam programas e tratam legibilidade, seguranç
 - Pascal: [indicar contexto e versão histórica escolhida; citar fontes]
 - Rust: [indicar contexto e versão usada; citar fontes]
 
-**Decisão pendente:** especificar **qual Pascal histórico será comparado e qual compilador/versão será utilizado para executar exemplos**. Diferenciar recursos do Pascal clássico das extensões de Free Pascal ou outro dialeto.
 
 ## Ambiente e reprodutibilidade
 | Item | Versão | Instalação |
@@ -59,7 +57,7 @@ O seminário deve selecionar comparações relevantes, não recitar os 29 tópic
 ChatGPT foi utilizado para organizar a estrutura inicial, divisão de temas e modelos de documentação. O grupo deverá confirmar e atualizar ferramentas utilizadas e suas finalidades; conferir tecnicamente os conteúdos e testes.
 
 ## Checklist
-- [ ] Escolher a versão/dialeto Pascal e registrar ambiente
+- [Ok] Escolher a versão/dialeto Pascal e registrar ambiente
 - [ ] Documentar os 29 tópicos das duas linguagens
 - [ ] Comparar pelo menos 3 propriedades desejáveis
 - [ ] Incluir exemplos e experimentos reproduzíveis, quando aplicável
