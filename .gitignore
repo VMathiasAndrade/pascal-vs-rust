@@ -1,0 +1,12 @@
+# Executáveis e produtos de compilação
+*.exe
+*.o
+*.obj
+*.ppu
+*.a
+*.rlib
+*.pdb
+/target/
+**/target/
+.DS_Store
+Thumbs.db
