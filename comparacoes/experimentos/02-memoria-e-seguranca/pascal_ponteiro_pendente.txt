@@ -1,0 +1,7 @@
+p <> nil ? TRUE
+Dispose(q) a seguir (dupla liberacao):
+Runtime error 204 at $0000000000419484
+  $0000000000419484
+  $0000000000422F8C
+
+exit=204

@@ -1,0 +1,13 @@
+error[E0502]: cannot borrow `v` as mutable because it is also borrowed as immutable
+ --> erro_borrow.rs:6:5
+  |
+5 |     let primeiro = &v[0]; // referencia imutavel
+  |                     - immutable borrow occurs here
+6 |     v.push(4);            // ERRO: push pode realocar o vetor e invalidar `primeiro`
+  |     ^^^^^^^^^ mutable borrow occurs here
+7 |     println!("{}", primeiro);
+  |                    -------- immutable borrow later used here
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0502`.

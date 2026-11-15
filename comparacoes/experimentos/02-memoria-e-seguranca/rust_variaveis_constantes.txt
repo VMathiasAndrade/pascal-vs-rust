@@ -1,0 +1,2 @@
+Rust contador=1 area=12.57
+x = 10

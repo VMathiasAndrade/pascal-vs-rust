@@ -1,0 +1,26 @@
+error[E0382]: borrow of moved value: `v`
+  --> erro_move.rs:10:28
+   |
+8  |     let v = vec![1, 2, 3];
+   |         - move occurs because `v` has type `Vec<i32>`, which does not implement the `Copy` trait
+9  |     let n = consome(v);   // ownership de `v` e movido para a funcao
+   |                     - value moved here
+10 |     println!("{} {:?}", n, v); // ERRO: `v` ja foi movido
+   |                            ^ value borrowed here after move
+   |
+note: consider changing this parameter type in function `consome` to borrow instead if owning the value isn't necessary
+  --> erro_move.rs:3:15
+   |
+3  | fn consome(v: Vec<i32>) -> usize {
+   |    -------    ^^^^^^^^ this parameter takes ownership of the value
+   |    |
+   |    in this function
+   = note: this error originates in the macro `$crate::format_args_nl` which comes from the expansion of the macro `println` (in Nightly builds, run with -Z macro-backtrace for more info)
+help: consider cloning the value if the performance cost is acceptable
+   |
+9  |     let n = consome(v.clone());   // ownership de `v` e movido para a funcao
+   |                      ++++++++
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0382`.

@@ -1,0 +1,9 @@
+Valor = 42
+Heap dump by heaptrc unit of /home/rafaella/pascal-vs-rust/pascal/02-memoria-e-seguranca/vazamento
+1 memory blocks allocated : 2/8
+0 memory blocks freed     : 0/0
+1 unfreed memory blocks : 2
+True heap size : 32768
+True free heap : 32544
+Should be : 32568
+C
