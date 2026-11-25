@@ -1,0 +1,6 @@
+Valor inicial: 0
+Apos incrementar: 2
+Apos decrementar: 1
+Limite inferior: 0
+Limite superior: 10
+exit=0

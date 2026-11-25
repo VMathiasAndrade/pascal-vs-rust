@@ -1,0 +1,10 @@
+error[E0616]: field `valor` of struct `Contador` is private
+ --> erros/erro_privacidade.rs:7:7
+  |
+7 |     c.valor = -10;
+  |       ^^^^^ private field
+
+error: aborting due to 1 previous error
+
+For more information about this error, try `rustc --explain E0616`.
+exit=1
